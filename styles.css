@@ -1,0 +1,29 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+button {
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    transition: transform .4s ease 0s;
+}
+
+button:hover {
+    color: white;
+    background-color: green;
+    transform: translateY(2px);
+}
+
+button:active {
+    color: green;
+    background-color: white;
+    transform: translateY(3px);
+}
